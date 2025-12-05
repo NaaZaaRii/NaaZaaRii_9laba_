@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Головна</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="icon" href="{{ url_for('static', filename='favicon.ico') }}">
+</head>
+<body>
+    <h1>Вітаємо у вашому Flask-додатку!</h1>
+    <nav>
+        <a href="/register">Реєстрація</a>
+        <a href="/users">Користувачі</a>
+        <a href="/gallery">Галерея</a>
+    </nav>
+</body>
+</html>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Реєстрація</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="icon" href="{{ url_for('static', filename='favicon.ico') }}">
+</head>
+<body>
+    <h2>Форма реєстрації</h2>
+    <form method="POST">
+        Ім’я: <input type="text" name="name" required><br><br>
+        Email: <input type="email" name="email" required><br><br>
+        Повідомлення:<br>
+        <textarea name="message" required></textarea><br><br>
+        <button type="submit">Відправити</button>
+    </form>
+    <a class="back" href="/">Повернутися на головну</a>
+</body>
+</html>

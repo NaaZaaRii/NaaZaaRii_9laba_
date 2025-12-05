@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f0ff;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+nav a {
+    margin: 10px;
+    padding: 10px 20px;
+    background: #6f42c1;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+}
+nav a:hover, .back:hover {
+    background: #563d7c;
+}
+form input, form textarea {
+    width: 250px;
+    padding: 8px;
+    margin: 5px;
+}
+button {
+    background: #6f42c1;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+button:hover {
+    background: #563d7c;
+}
+.back {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #6f42c1;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 8px;
+}
+.gallery img {
+    margin: 10px;
+    border-radius: 10px;
+}
